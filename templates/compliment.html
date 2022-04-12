@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <title>A Compliment</title>
+    <link href="madlibs.css" rel="stylesheet">
+</head>
+<body>
+Hi {{ person }}! I think you're {{ compliment }}!
+<div>
+    <form action="/game">
+        Would you like to play a game?
+        <label for="input-yes">
+            Yes
+        </label>
+        <input
+                id="input-yes"
+                name="yes-no"
+                type="radio"
+                value="yes"
+        >
+        <label for="input-no">
+            No
+        </label>
+        <input
+                id="input-no"
+                name="yes-no"
+                type="radio"
+                value="no"
+        >
+        <input type="submit">
+    </form>
+</div>
+</body>
+</html>
